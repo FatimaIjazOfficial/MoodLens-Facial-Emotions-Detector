@@ -1,0 +1,34 @@
+{
+  "webcam": {
+    "url": "http://192.168.43.1:8080/video",
+    "frame_width": 320,
+    "frame_height": 240,
+    "reconnect_attempts": 3,
+    "reconnect_delay_sec": 2
+  },
+
+  "model": {
+    "model_path": "models/emotion_model.h5",
+    "labels_path": "data/labels.json",
+    "confidence_threshold": 0.50,
+    "force_input_size": 48
+  },
+
+  "detector": {
+    "min_detection_confidence": 0.6,
+    "detection_scale": 320
+  },
+
+  "display": {
+    "draw_box": true,
+    "draw_label": true,
+    "box_thickness": 2,
+    "font_scale": 0.6,
+    "show_fps": true
+  },
+
+  "logging": {
+    "save_logs": false,
+    "log_path": "outputs/logs/emotions.csv"
+  }
+}
