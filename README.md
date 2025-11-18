@@ -1,6 +1,6 @@
-## MoodLens – Real-Time Emotion Detector
+## MoodLens â€“ Real-Time Emotion Detector
 
-MoodLens is a real-time emotion detection system that captures your face through a webcam (or mobile camera) and predicts emotions like happy, sad, angry, surprised, and more. It’s built with Python, TensorFlow, MediaPipe, and OpenCV, and supports saving snapshots for analysis.
+MoodLens is a real-time emotion detection system that captures your face through a webcam (or mobile camera) and predicts emotions like happy, sad, angry, surprised, and more. Itâ€™s built with Python, TensorFlow, MediaPipe, and OpenCV, and supports saving snapshots for analysis.
 
 ## Features
 
@@ -21,21 +21,18 @@ Fully configurable via config.json.
 ## Project Structure
 MoodLens/
 -
---- main.py                 # Entry point for running live emotion detection
---- config.py               # Loads and manages config.json
---- config.json             # Settings for webcam, model, display, logging
---- requirements.txt        # Required Python packages
---- utils/
--   --- webcam.py           # Webcam handling
--   --- detector.py         # Face detection
--   --- emotion_model.py    # Loads model and predicts emotions
---- models/
--   --- emotion_model.h5    # Pre-trained emotion detection model
---- data/
--   --- labels.json         # Emotion labels mapping
---- outputs/
--   --- logs/               # Saved face snapshots
---- README.md
+main.py                 # Entry point for running live emotion detection
+config.py               # Loads and manages config.json
+config.json             # Settings for webcam, model, display, logging
+requirements.txt        # Required Python packages
+utils/
+--- webcam.py           # Webcam handling
+--- detector.py         # Face detection
+--- emotion_model.py    # Loads model and predicts emotions
+models/emotion_model.h5    # Pre-trained emotion detection model
+data/labels.json         # Emotion labels mapping
+outputs/logs/               # Saved face snapshots
+README.md
 
 ## Installation
 
@@ -126,5 +123,6 @@ MediaPipe 0.10.14
 NumPy, Pillow, and other dependencies listed in requirements.txt.
 
 ## License
+
 
 This project is licensed under the MIT License.
