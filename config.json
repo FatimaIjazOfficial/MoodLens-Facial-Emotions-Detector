@@ -1,6 +1,7 @@
+## enter you mbl webcam url in that place "url": "http://192.178.87.1:8080/video",
 {
   "webcam": {
-    "url": "http://192.168.43.1:8080/video",
+    "url": "http://192.178.87.1:8080/video",
     "frame_width": 320,
     "frame_height": 240,
     "reconnect_attempts": 3,
@@ -32,3 +33,4 @@
     "log_path": "outputs/logs/emotions.csv"
   }
 }
+
